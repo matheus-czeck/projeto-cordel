@@ -1,0 +1,120 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'titulo';
+    src: url(Fonte/PassionOne-Bold.ttf);
+}
+@font-face {
+    font-family: 'conteudo';
+    src: url(Fonte/Sriracha-Regular.ttf);
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+body {
+    display: block;
+    min-height: 100%;
+   
+
+
+}
+header {
+    background-color: black;
+    padding-top: 40px;
+    
+
+}
+header > h1 {
+    font-family: 'titulo', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: white;
+    font-size: 8vw;
+    text-align: center;
+    padding: 30px;
+}
+header > p{
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+     color: white;
+     font-size: 1em;
+     padding-bottom: 30px;
+}
+header >  p > a {
+    color: white;
+    text-decoration: none;
+    font-style: bold;
+    
+
+}
+header > p > a > strong {
+    
+
+}
+a:hover{
+    text-decoration: underline;
+
+}
+main{
+    font-family: 'conteudo', Arial, Helvetica, sans-serif;
+    text-align: left;
+    
+    font-size: 16px;
+    
+
+}
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 3.0vw;
+}
+section > p {
+        padding-bottom: 2em;
+}
+#img1 {    
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.808);
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    color: white;  
+    background-attachment: fixed;
+    
+
+}
+.img > p{   
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 0px black;
+    
+}
+#img2 {
+    box-shadow:inset 6px 6px 13px rgba(0, 0, 0, 0.61);
+    background-image: url(imagens/background002.jpg);
+    background-attachment:  fixed;
+    color: white;
+
+}
+
+footer {
+    background-color: black;
+    
+}
+footer > p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align:center;
+    padding: 15px;
+    
+    
+}
+footer > p > a{
+    text-decoration: none;
+    color: white ;
+    font-style: bold;
+    
+    
+
+    
+}
